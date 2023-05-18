@@ -1,0 +1,60 @@
+<RCC>
+    <qresource prefix="/ui">
+        <file>resource/entities/bullet.png</file>
+        <file>resource/entities/crossHair.png</file>
+        <file>resource/entities/gunFlare.png</file>
+        <file>resource/entities/gunFlash.png</file>
+        <file>resource/entities/hostage.png</file>
+        <file>resource/entities/hostageheads.png</file>
+        <file>resource/entities/smoke.png</file>
+        <file>resource/entities/speechBubbles.png</file>
+        <file>resource/ui/bomb.png</file>
+        <file>resource/ui/health.png</file>
+        <file>resource/ui/heart.png</file>
+    </qresource>
+    <qresource prefix="/hero">
+        <file>resource/entities/hero/allplayer.png</file>
+        <file>resource/entities/hero/dead.png</file>
+        <file>resource/entities/hero/gunHand.png</file>
+        <file>resource/entities/hero/kick.png</file>
+        <file>resource/entities/hero/run.png</file>
+    </qresource>
+    <qresource prefix="/enemy">
+        <file>resource/entities/enemy/allenemies.png</file>
+        <file>resource/entities/enemy/allenemy.png</file>
+        <file>resource/entities/enemy/allshotgun.png</file>
+        <file>resource/entities/enemy/enemydead.png</file>
+        <file>resource/entities/enemy/enemydeadAll.png</file>
+        <file>resource/entities/enemy/enemydeadalt.png</file>
+        <file>resource/entities/enemy/enemydeadheads.png</file>
+        <file>resource/entities/enemy/enemydying.png</file>
+        <file>resource/entities/enemy/enemyheads.png</file>
+        <file>resource/entities/enemy/gunHand.png</file>
+        <file>resource/entities/enemy/gunShot.png</file>
+        <file>resource/entities/enemy/nmeAnim.png</file>
+        <file>resource/entities/enemy/nmeWalkAnim.png</file>
+        <file>resource/entities/enemy/surprise.png</file>
+    </qresource>
+    <qresource prefix="/map">
+        <file>resource/tiles/objectAll.png</file>
+        <file>resource/tiles/objectFlat.png</file>
+        <file>resource/tiles/objectSet.png</file>
+        <file>resource/tiles/singledooranim.png</file>
+        <file>resource/tiles/tilesetGround.png</file>
+        <file>resource/tiles/tilesetWall.png</file>
+        <file>resource/tiles/trim.png</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file>resource/background/piYw+M.jpg</file>
+        <file>resource/background/start_page.png</file>
+        <file>resource/background/icon.png</file>
+        <file>resource/background/tla61N.jpg</file>
+        <file>resource/background/UOgyRq.jpg</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>resource/icon/rule.png</file>
+        <file>resource/icon/start.png</file>
+        <file>resource/icon/quit.png</file>
+        <file>resource/icon/back.png</file>
+    </qresource>
+</RCC>
