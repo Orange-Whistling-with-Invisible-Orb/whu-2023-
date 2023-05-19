@@ -1,5 +1,6 @@
 #include "start_widget.h"
 #include "ui_start_widget.h"
+
 #include<QPainter>
 #include<QTimer>
 #include<QDebug>
@@ -14,18 +15,21 @@ start_Widget::start_Widget(QWidget *parent) :
     setWindowTitle("刺杀希特勒");//设置窗口标题
     //设置窗口图标
     QIcon icon;
-    icon.addFile(":/background/resource/background/icon.png", QSize(30, 30));
+    icon.addFile(":/icon/resource/icon/shot.png", QSize(30, 30));
     setWindowIcon(icon);
     QPixmap pix_rule;
 
     //设置按钮
     //开始游戏按钮
-    ui->start->setStyleSheet("QToolButton { background: transparent; }");
+    ui->start->setStyleSheet("QToolButton { background: transparent; }");//去掉按键边框
     connect(ui->start,&QToolButton::clicked,[=](){
-
+        Map2=new map2(0,520);//先跳到 map2 用于测试,后期跳到 map1  //主角位置放到(0,520)
+        this->hide();
+        Map2->show();
     });
+
     //游戏规则按钮
-    ui->rule->setStyleSheet("QToolButton { background: transparent; }");
+    ui->rule->setStyleSheet("QToolButton { background: transparent; }");//去掉按键边框
     connect(ui->rule,&QToolButton::clicked,[=](){
         rule=new rule_widget;//建立窗口
         this->hide();//切换窗口
@@ -37,9 +41,11 @@ start_Widget::start_Widget(QWidget *parent) :
             this->show();
         });
     });
-    ui->quit->setStyleSheet("QToolButton { background: transparent; }");//退出按钮
+
+    //退出按钮
+    ui->quit->setStyleSheet("QToolButton { background: transparent; }");//去掉按键边框
     connect(ui->quit,&QToolButton::clicked,[=](){
-        this->close();
+        this->close();//关闭界面
     });
 }
 

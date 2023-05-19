@@ -1,49 +1,4 @@
 <RCC>
-    <qresource prefix="/ui">
-        <file>resource/entities/bullet.png</file>
-        <file>resource/entities/crossHair.png</file>
-        <file>resource/entities/gunFlare.png</file>
-        <file>resource/entities/gunFlash.png</file>
-        <file>resource/entities/hostage.png</file>
-        <file>resource/entities/hostageheads.png</file>
-        <file>resource/entities/smoke.png</file>
-        <file>resource/entities/speechBubbles.png</file>
-        <file>resource/ui/bomb.png</file>
-        <file>resource/ui/health.png</file>
-        <file>resource/ui/heart.png</file>
-    </qresource>
-    <qresource prefix="/hero">
-        <file>resource/entities/hero/allplayer.png</file>
-        <file>resource/entities/hero/dead.png</file>
-        <file>resource/entities/hero/gunHand.png</file>
-        <file>resource/entities/hero/kick.png</file>
-        <file>resource/entities/hero/run.png</file>
-    </qresource>
-    <qresource prefix="/enemy">
-        <file>resource/entities/enemy/allenemies.png</file>
-        <file>resource/entities/enemy/allenemy.png</file>
-        <file>resource/entities/enemy/allshotgun.png</file>
-        <file>resource/entities/enemy/enemydead.png</file>
-        <file>resource/entities/enemy/enemydeadAll.png</file>
-        <file>resource/entities/enemy/enemydeadalt.png</file>
-        <file>resource/entities/enemy/enemydeadheads.png</file>
-        <file>resource/entities/enemy/enemydying.png</file>
-        <file>resource/entities/enemy/enemyheads.png</file>
-        <file>resource/entities/enemy/gunHand.png</file>
-        <file>resource/entities/enemy/gunShot.png</file>
-        <file>resource/entities/enemy/nmeAnim.png</file>
-        <file>resource/entities/enemy/nmeWalkAnim.png</file>
-        <file>resource/entities/enemy/surprise.png</file>
-    </qresource>
-    <qresource prefix="/map">
-        <file>resource/tiles/objectAll.png</file>
-        <file>resource/tiles/objectFlat.png</file>
-        <file>resource/tiles/objectSet.png</file>
-        <file>resource/tiles/singledooranim.png</file>
-        <file>resource/tiles/tilesetGround.png</file>
-        <file>resource/tiles/tilesetWall.png</file>
-        <file>resource/tiles/trim.png</file>
-    </qresource>
     <qresource prefix="/background">
         <file>resource/background/piYw+M.jpg</file>
         <file>resource/background/start_page.png</file>
@@ -56,5 +11,30 @@
         <file>resource/icon/start.png</file>
         <file>resource/icon/quit.png</file>
         <file>resource/icon/back.png</file>
+        <file>resource/icon/shot.png</file>
+    </qresource>
+    <qresource prefix="/MainCharacter_feet">
+        <file>resource/MainCharacter/feet/idle/survivor-idle_0.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_0.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_2.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_4.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_6.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_8.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_10.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_12.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_14.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_16.png</file>
+        <file>resource/MainCharacter/feet/run/survivor-run_18.png</file>
+    </qresource>
+    <qresource prefix="/MainCharacter_body_knife">
+        <file>resource/MainCharacter/knife/idle/survivor-idle_knife_0.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_0.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_2.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_4.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_6.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_8.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_10.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_12.png</file>
+        <file>resource/MainCharacter/knife/meleeattack/survivor-meleeattack_knife_14.png</file>
     </qresource>
 </RCC>

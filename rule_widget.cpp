@@ -11,7 +11,7 @@ rule_widget::rule_widget(QWidget *parent) :
     setWindowTitle("刺杀希特勒");//设置窗口标题
     //设置窗口图标
     QIcon icon;
-    icon.addFile(":/background/resource/background/icon.png", QSize(30, 30));
+    icon.addFile(":/icon/resource/icon/shot.png", QSize(30, 30));
     setWindowIcon(icon);
 
     //返回按钮

@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include"rule_widget.h"
+#include"map2.h"//地图2//暂且加到这
 
 namespace Ui {
 class start_Widget;
@@ -23,6 +24,8 @@ public:
 
 private:
     Ui::start_Widget *ui;
+
+    map2* Map2;//地图2
 };
 
 #endif // START_WIDGET_H
