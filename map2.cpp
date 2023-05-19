@@ -18,7 +18,7 @@ map2::map2(int x,int y)
     this->setScene(scene2);//把视图背景放进场景里
 
     //放入主角
-    Character=new character_item;
+    Character=new item_character;
     Character->setPos(x,y);
     scene2->addItem(Character);//把主角添加到场景里
 }

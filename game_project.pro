@@ -9,23 +9,23 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    character_item.cpp \
+    item_character.cpp \
     main.cpp \
     map2.cpp \
     myitem.cpp \
-    rule_widget.cpp \
-    start_widget.cpp
+    widget_rule.cpp \
+    widget_start.cpp
 
 HEADERS += \
-    character_item.h \
+    item_character.h \
     map2.h \
     myitem.h \
-    rule_widget.h \
-    start_widget.h
+    widget_rule.h \
+    widget_start.h
 
 FORMS += \
-    rule_widget.ui \
-    start_widget.ui
+    widget_rule.ui \
+    widget_start.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
